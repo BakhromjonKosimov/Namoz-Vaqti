@@ -168,6 +168,8 @@
 }
 .card--time > p{
     font-size: 25px;
+    color: rgb(80, 1, 1);
+    font-weight: 500;
 }
 
 .quyosh--letter {

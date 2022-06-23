@@ -159,7 +159,7 @@ function Main() {
 
                 <div className="container">
                     <div className="time--section shadow-lg mb-2 bg-body rounded">
-                        <p className="timing">{leftPrayers} namozgacha: {remainTime} minut vaqt qoldi!</p>
+                        <p className="timing">{leftPrayers} namozigacha: {remainTime} minut vaqt qoldi!</p>
                     </div>
                     <div className="selecting--date">
                         <div className="today shadow-lg mb-3 bg-body rounded" data-aos="flip-left"
