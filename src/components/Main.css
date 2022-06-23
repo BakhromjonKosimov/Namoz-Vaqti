@@ -1,0 +1,371 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav--bar {
+   
+    height: 80px;
+}
+
+.image-styled {
+    height: 80px;
+    width: 95px;
+}
+
+.inner-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.city--searching--input {
+    height: 30px;
+    outline: none;
+    border-style: none;
+    border-radius: 0.3rem;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.qidiruv {
+    height: 30px;
+    width: 70px;
+    outline: none;
+    border-style: none;
+    border-radius: 0.3rem;
+    background: linear-gradient(rgba(249, 249, 250, 0.8), rgb(255, 214, 6));
+    margin-top: 25px;
+    
+}
+
+.dropdown {
+    margin-top: 20px;
+}
+
+.body--section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("https://zamzam.com/blog/wp-content/uploads/2021/05/Grand-Mosque-Sheikh-Zayed-Mosque-Abu-Dhabi.jpg");
+    background-size: cover;
+
+
+
+
+}
+.language-button{
+    margin-top: 1.5rem;
+    margin-left: 5px;
+    height: 30px;
+    background: linear-gradient(rgba(249, 249, 250, 0.8), rgb(255, 214, 6));
+}
+
+@media only screen and (max-width: 600px) {
+    .qidiruv {
+        height: 25px;
+        color: white;
+        margin-top: 28px;
+        width: 40px;
+        font-size: 10px;
+        padding: 1px;
+    }
+    .language-button{
+        margin-top: 1.7rem;
+     
+        height: 25px;
+        font-size: small;
+        width: 35px;
+        text-align: center;
+        line-height: 10px;
+        
+       
+    }
+ 
+
+    .changed--down {
+      display: flex;
+      width: 100px;
+        
+    }
+
+    .city--searching--input {
+        height: 25px;
+        width: 80%;
+        margin-top: 28px;
+        
+    }
+
+    .dropdown>a {
+        font-size: 15px;
+    }
+
+    .image-styled {
+        height: 50px;
+        width: 60px;
+        margin-top: 15px;
+        
+    }
+}
+
+.time--section {
+    height: 40px;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 30px;
+    background: linear-gradient(rgba(249, 249, 250, 0.8), rgb(255, 214, 6));
+
+}
+
+.timing {
+    padding-top: .5rem;
+    color: red;
+    font-weight: 600;
+}
+
+.selecting--date {
+    display: flex;
+    justify-content: center;
+}
+
+.today {
+    margin: 18px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 15px; background: linear-gradient(rgba(249, 249, 250, 0.8), rgb(255, 214, 6));
+    
+}
+
+.today>p {
+    margin-top: 0.2rem;
+   
+}
+
+.main--cards {
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+.card--time {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: 5px solid rgba(255, 242, 0, 0.966);
+    padding-top: 1.3rem;
+    border-radius: 50%;
+    color:rgb(4, 4, 4);
+    background: linear-gradient(rgb(249, 249, 250), rgba(255, 214, 6, 0.327)), url("https://images.freeimages.com/images/small-previews/8fc/quran-2-1427171.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card--time>h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 45px;
+}
+.card--time > p{
+    font-size: 25px;
+}
+
+.quyosh--letter {
+    color: white;
+    margin-left: 1rem;
+}
+
+.sun-image>img {
+    width: 70px;
+    animation-name: sunAnimated;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sunAnimated {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card--time>h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 60px;
+        padding-top: 1rem;
+    }
+    .timing {
+        padding-top: 0rem;
+        
+    }
+
+    .card--time>p {
+        text-align: center;
+        margin: 0;
+        font-size: 35px;
+    }
+
+    .main--cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .card--time {
+        border-radius: 100px;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin-top: 15px;
+        padding-top: 0.9em;
+
+    }
+
+    .sun-image>img {
+        width: 75px;
+        text-align: center;
+
+    }
+
+    .quyosh--letter {
+        font-size: 100%;
+    }
+
+    .time--section {
+        height: 25px;
+        border-radius: 0.5rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .today {
+        margin: 18px;
+        height: 20px;
+        width: 60px;
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+.prayer--rule {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.example--cards {
+    font-size: 20px;
+    text-align: center;
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin: 1rem 0;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(rgba(249, 249, 250, 0.8), rgb(255, 214, 6));
+}
+
+
+
+.example--cards>p {
+    margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .example--cards {
+        font-size: 10px;
+        height: 30px;
+       
+    }
+
+    .example--cards>p {
+        margin-top: 5px;
+    }
+}
+
+/* Footer part */
+
+.footer {
+    /* height: 30vh; */
+    background-color: rgb(255, 255, 255);
+    
+}
+.footer--wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(16, 2, 2);
+}
+.footer--cards  {
+   margin-top: 20px;
+   text-align: start;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer--wrap{
+        display: flex;
+        flex-direction: column;
+        color: rgb(16, 2, 2);
+        align-items: center;
+        
+    }
+    .footer--cards  {
+      
+        text-align: center;
+     }
+    .footer--cards > h4{
+        font-size: 20px;
+        color: rgb(16, 2, 2); 
+             
+    }
+    .footer--cards > p{
+        font-size: 12px;
+    }
+}
+
+.search--button {
+    position: relative;
+}
+
+.variant_list {
+    position: absolute;
+    top: calc(100% + 1rem);
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+    list-style: none;
+    z-index: 99;
+    padding: .8rem;
+    border-radius: 10px !important;
+    overflow: hidden;
+    margin: 0;
+    visibility: hidden;
+}
+
+.variant_list:hover {
+    visibility: visible;
+}
+
+.variant_list.active {
+    visibility: visible;
+}
+
+.variant_list li {
+    cursor: pointer;
+}
+
+.variant_list li p {
+    margin: 0;
+}
